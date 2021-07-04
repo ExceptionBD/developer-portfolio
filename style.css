@@ -32,3 +32,10 @@ background-repeat: no-repeat;
     border-radius: 10px;
     
 }
+.s2{
+    display: flex;
+    padding: 10%;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
