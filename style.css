@@ -11,15 +11,17 @@ h1{
     color: #6106c9;
 }
 
-.s1{
+.flexeble-container{
 display: flex;
 background-image: url(images/top-banner.png);
 background-repeat: no-repeat;
+padding: 20px;
+
 
 }
 .half-width{
     width: 50%;
-    padding: 20px;
+    padding: 30px;
 }
 .half-width img{
     width: 80%;
@@ -30,6 +32,7 @@ background-repeat: no-repeat;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 20px;
     border-radius: 10px;
+    background-repeat: no-repeat;
     
 }
 .s2{
@@ -38,4 +41,32 @@ background-repeat: no-repeat;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.border-shadow{
+    box-shadow: 10px 10px 25px coral;
+    border-left: 10px blue;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+footer p{
+    text-align: center;
+}
+#border{
+    border-left: 7px solid;
+    border-color: orangered;
+    border-image-slice: 1;
+    margin-left: 5px;
+}
+#border1{
+    border-left: 7px solid;
+    border-color: palegreen;
+    border-image-slice: 1
+
 }
